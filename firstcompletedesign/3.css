@@ -1,0 +1,236 @@
+*{
+	font-family: 'Lato', sans-serif;	
+}
+
+.suanav{
+	background: transparent!important;
+	
+}
+.navblue{
+	transition: 0.6s;
+	background: #1ed2fbd1!important;	
+}
+.navbar .container a.navbar-brand{
+	font-family: 'Lato', sans-serif;
+	font-size: 150%;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+	background: url(3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.suanava .nav-item a.nav-link{
+	font-size: 120%;
+	color: white;
+}
+
+
+
+div.bigbanner{
+	margin-top: 25%;
+	color: white;
+}
+div.justtext{
+	background-color: rgba(7, 16, 53, 0.75);
+	padding: 3% 5%;
+	border-radius: 30px;
+}
+div.justtext h1{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+div.justtext h1::after{
+	position: absolute;
+	display: block;
+	content: "";
+	bottom:-20%;
+	left:50%;
+	width: 20%;
+	height: 3px;
+	margin-left: -10%; 
+	background-color: #11fbcb;
+}
+div.justtext p{
+	margin-top: 5%;
+}
+div.bigbanner a.fixa{
+	text-transform: uppercase;
+	font-weight: 700;
+	color: rgba(7, 16, 53, 0.75);
+}
+
+main{
+	width: 100%;
+}
+.fullscr{
+	width: 100%;
+	margin:0;
+}
+section:first-child{
+	background: url(2.jpg);
+	background-attachment: fixed;
+	height: 50vh;
+	background-size: cover;
+	
+
+}
+section:first-child .bigbanner{
+	margin-top: 7%;
+}
+section:first-child .firmid .justtext {
+	background: #083120b8;
+}
+section:first-child .firmid .justtext h1{
+	font-size: 2em;
+}
+section:first-child .firmid .justtext p{
+	margin-top: 2%;
+}
+
+section:nth-child(2){
+	background: url(1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 70vh;
+
+}
+section:nth-child(2) .bigbanner{
+	margin-top: 1%;
+}
+section:nth-child(2) .firmid .justtext {
+	background: none;
+}
+section:nth-child(2) .bigbanner{
+	width: 70%;
+}
+
+section:nth-child(2) .container div[class^="col"] .smaller{
+	text-align: center;
+	display: inline-block;
+	padding: 15px;
+	background-color: rgba(51, 19, 39, 0.74);
+	border-radius: 10px;
+	border:1px solid white;
+}
+section:nth-child(2) .container div[class^="col"] h1{
+	margin-top: 15px;
+}
+section:nth-child(3) div{
+	padding:0;
+	margin:0;
+}
+section:nth-child(3) div .pict{
+	position: relative;	
+}
+section:nth-child(3) div .pict img{
+
+	width: 100%;
+}
+section:nth-child(3) div .pict .backg{
+	transition: 0.6s;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(15, 52, 53, 0.66);
+	z-index: 1;
+	opacity: 0;
+}
+section:nth-child(3) div .pict .lett{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	margin-top: -5%;
+	z-index: 2;	
+	color: white;
+}
+
+section:nth-child(3) div .pict:hover .backg{
+	transition: 0.6s;
+	opacity: 1;
+}
+
+section:nth-child(4){
+	background-color: #273956;
+	padding-bottom: 2%;
+}
+section:nth-child(4) .bigbanner{
+	margin-top: 1%;
+}
+section:nth-child(4) .bigbanner a{
+	border-radius: 20px;
+	transform: scale(1.5);
+}
+
+footer .contact section .bigbanner{
+	margin-top: 2%;
+}
+
+footer .contact section .bigbanner .justtext{
+	background-color: transparent;
+}
+footer .contact section{
+	background: url(5.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	padding-bottom: 2%;	
+}
+div.copyr{
+	width: 100%;
+	height: 15vh;
+	text-align: center;
+	box-sizing: border-box;
+}
+.copyr p{
+	margin-top: 3%;
+}
+
+@media (max-width: 976px){
+div#navbartop{
+	transition: 0.5s;
+	position: absolute;
+	top: 85%;
+	left: 0;
+} 
+ul.suanava li.nav-item{
+	width: 100vw;
+	background-color: rgba(7, 16, 53, 0.85);
+	border-bottom:0.5px solid #2f2744;
+}
+button.navbar-toggler.butfix{
+	background-color: #1b1342db;
+}
+span.navbar-toggler-icon.icofix { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(37, 142, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important; 
+        } 
+
+div.dropdown-menu.planfix{
+	transition: 0.5s;
+	background-color: #221d508c;
+}
+div.dropdown-menu.planfix .dropdown-item{
+	color: white;
+}
+div.dropdown-menu.planfix .dropdown-item:hover{
+	background-color: rgba(7, 16, 53, 0.85);
+}
+
+div.justtext h1{
+	font-size: 2rem;
+}
+section:nth-child(n){
+	height: 100%;
+}
+}
+
